@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery-1_Functions</title>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+
+    <script>
+      $(document).ready(function() {
+      $('#Button-1').on('click',
+        function()
+        {
+          $('h1').css('background-color', 'yellow');
+        }
+      ); // $('button').on()
+      // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      $('button').on('click',
+        function()
+        {
+          // alert('you clicked the button!');
+        }
+      );
+      // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      $('#Button-2').on('click',
+        function() {
+          var duration = 2*1e3; // 1e3ms. = 1s.
+          $('h2').hide(duration, function(){});
+        }
+      );
+      // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      $('#Button-3').on('click',
+        function(){
+          var duration = 2*1e3; // 1e3ms. = 1s.
+          $('h2').show(duration, function(){});
+        }
+      );
+      // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      $('#Button-4').on('click',
+        function(){
+          var duration = 2*1e3; // 1e3ms. = 1s.
+          $('h2').toggle(duration, function(){});
+        }
+      );
+
+
+
+
+
+    }); // $(document).ready() method
+
+    </script>
+
+  </head>
+  <body>
+    <h1>Josh</h1>
+    <h2>Fade!</h2>
+    <button type="button" name="button-1" id="Button-1">Change color</button>
+    <button type="button" name="button-2" id="Button-2">Hide</button>
+    <button type="button" name="button-3" id="Button-3">Show</button>
+    <button type="button" name="button-4" id="Button-4">Toggle</button>
+  </body>
+</html>
+
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
